@@ -1,0 +1,33 @@
+@use 'colors' as c;
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.colorPrimary {
+	color: c.$primary;
+}
+
+.shadow {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	background-color: c.$hero;
+	z-index: 2;
+
+	&--circle {
+		border-radius: 50%;
+	}
+}
+
+.ptb {
+	padding: 4em 0;
+}
+
+a {
+	text-decoration: none;
+	color: c.$black;
+}

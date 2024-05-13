@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#969F9C">
+    <title>Royal Respite - Apartamenty</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/style.min.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+    <div class="nav__container wrapper">
+        <a href="#" class="nav__logo"><span class="colorPrimary">Royal</span> Respite</a>
+        <div class="nav__menu">
+            <a href="#" class="nav__menu-item">Pokoje</a>
+            <a href="#" class="nav__menu-item">O nas</a>
+            <a href="#" class="nav__menu-item">Kontakt</a>
+            <div class="nav__menu-bottom">
+                <p class="nav__menu-contact">+48 111 222 333</p>
+                <p class="nav__menu-time">od 9:00 do 16:00</p>
+            </div>
+        </div>
+        <button class="nav__bars">
+            <div class="nav__bars-line"></div>
+            <div class="nav__bars-line"></div>
+            <div class="nav__bars-line"></div>
+        </button>
+    </div>
+</nav>
+
+    <header class="header">
+        <div class="header__container wrapper">
+            <h1 class="header__title">Witaj w <span class="colorPrimary">Królewskim</span> Zakątku - Twoim luksusowym
+                <span class="colorPrimary">azylu</span> pełnym elegancji i wyrafinowanego komfortu
+            </h1>
+            <a href="#" class="header__link">Zamów teraz</a>
+        </div>
+        <div class="shadow"></div>
+        <i class="bi bi-arrow-down"></i>
+    </header>
+
+    <main class="main">
+
+        <section class="info ptb">
+            <div class="info__container">
+                <div class="info__box">
+                    <i class="bi bi-map"></i>
+                    <h2 class="info__title">Mapa i Dojazd</h2>
+                    <p class="info__text">Nasz apartament znajduje się w centrum miasta, niedaleko lotniska i dworca
+                        autobusowego, dzięki czemu łatwo nas znaleźć, niezależnie skąd przybywasz.</p>
+                </div>
+                <div class="info__box">
+                    <i class="bi bi-star"></i>
+                    <h2 class="info__title">Luksusowe Przeżycie</h2>
+                    <p class="info__text">Z naszym wykwalifikowanym personelem i wysokim komfortem zapewniamy, że pobyt
+                        w Royal Respite będzie niezapomnianym doświadczeniem.</p>
+                </div>
+                <div class="info__box">
+                    <i class="bi bi-house"></i>
+                    <h2 class="info__title">Usługi Noclegowe</h2>
+                    <p class="info__text">Apartament Royal Respite oferuje wysokiej jakości usługi zakwaterowania
+                        klientom przybywającym do naszego miasta z całego świata przez cały rok.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="apartments ptb">
+            <div class="apartments__container">
+                <div class="apartments__left">
+                    <div class="shadow"></div>
+                </div>
+                <div class="apartments__right">
+                    <h2 class="apartments__title">Najlepszy apartament</h2>
+                    <div class="apartments__btns">
+                        <button class="apartments__btn apartments__btn--one apartments__btn--active">O nas</button>
+                        <button class="apartments__btn apartments__btn--two">Dlaczego my?</button>
+                    </div>
+                    <div class="wrapper">
+                        <div class="apartments__slider">
+                            <div class="apartments__slide apartments__slide--one">
+                                <p class="apartments__text">Lorem ipsum dolor sit amet consectetur. Tellus tincidunt
+                                    imperdiet senectus massa. Nulla euismod tortor cras vestibulum tempus. </p>
+                            </div>
+                            <div class="apartments__slide apartments__slide--two">
+                                <p class="apartments__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Numquam aspernatur illum recusandae magnam quia culpa, pariatur laboriosam dolore
+                                    quam voluptatum atque!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="apartments__links">
+                        <a href="#" class="apartments__link">Kontakt</a>
+                        <a href="#" class="apartments__link">Więcej</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery ptb">
+            <h2 class="galerry__title">Nasza Galeria</h2>
+            <div class="gallery__container wrapper">
+                <div class="gallery__dropdown">
+                    <div class="gallery__select">
+                        <p class="gallery__selected">Wszystko</p>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </div>
+                    <ul class="gallery__menu">
+                        <li class="gallery__menu-item" data-filtr="all">Wszystko</li>
+                        <li class="gallery__menu-item" data-filtr="bedrooms">Sypialnie</li>
+                        <li class="gallery__menu-item" data-filtr="living-room">Salony</li>
+                        <li class="gallery__menu-item" data-filtr="diving-room">Jadalnie</li>
+                    </ul>
+                </div>
+                <div class="gallery__slider">
+                    <div class="gallery__slide gallery__slide--one" data-filtr="bedrooms">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="gallery__slide gallery__slide--five" data-filtr="diving-room">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="gallery__slide gallery__slide--three" data-filtr="living-room">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="gallery__slide gallery__slide--two" data-filtr="bedrooms">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="gallery__slide gallery__slide--six" data-filtr="diving-room">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="gallery__slide gallery__slide--four" data-filtr="living-room">
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team ptb">
+            <h2 class="team__title">Nasz Zespół</h2>
+            <div class="team__container">
+                <div class="team__card">
+                    <i class="bi bi-person-fill"></i>
+                    <p class="team__card-name">Jon Kotlowski</p>
+                    <p class="team__card-status">Założyciel</p>
+                    <p class="team__card-phone">+48 535 762 944</p>
+                </div>
+                <div class="team__card">
+                    <i class="bi bi-person-fill"></i>
+                    <p class="team__card-name">Roman Dziak</p>
+                    <p class="team__card-status">Pracownik obsługi</p>
+                    <p class="team__card-phone">+48 211 334 148</p>
+                </div>
+                <div class="team__card">
+                    <i class="bi bi-person-fill"></i>
+                    <p class="team__card-name">Gabriela Zielonka</p>
+                    <p class="team__card-status">Kelnerka</p>
+                    <p class="team__card-phone">+48 212 118 281</p>
+                </div>
+                <div class="team__card">
+                    <i class="bi bi-person-fill"></i>
+                    <p class="team__card-name">Dominik Galas</p>
+                    <p class="team__card-status">Recepcjonista</p>
+                    <p class="team__card-phone">+48 212 304 469</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-note ptb">
+            <div class="footer-note__container">
+                <h2 class="footer-note__title">Oszczędzaj Pieniądze</h2>
+                <p class="footer-note__text">Dzięki naszemu apartamentowi możesz zaoszczędzić dużo pieniędzy na
+                    zakwaterowaniu przez cały rok, aby cieszyć się pobytem w naszym mieście.</p>
+                <a href="#" class="footer-note__link">Czytaj Więcej</a>
+            </div>
+            <div class="shadow"></div>
+        </section>
+
+        <section class="rooms ptb">
+            <h2 class="rooms__title--one">Nasze Pokoje</h2>
+            <div class="rooms__container wrapper">
+                <div class="rooms__card">
+                    <p class="rooms__price">550 zł / noc</p>
+                    <div class="rooms__card-left rooms__card-left--one">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="rooms__card-right">
+                        <h2 class="rooms__title">Pokój Jednoosobowy</h2>
+                        <div class="rooms__review">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="rooms__text">Pokój jednoosobowy to jedna z najpopularniejszych opcji w Royal Respite.
+                            Znajduje się w nim jedno podwójne łóżko z wygodnym materacem i pościelą, toaleta oraz
+                            telewizor.</p>
+                        <a href="#" class="rooms__link">Więcej</a>
+                    </div>
+                </div>
+                <div class="rooms__card">
+                    <p class="rooms__price">850 zł / noc</p>
+                    <div class="rooms__card-left rooms__card-left--two">
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="rooms__card-right">
+                        <h2 class="rooms__title">Pokój Dwuosobowy</h2>
+                        <div class="rooms__review">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="rooms__text">Pokój ten wyposażony jest w dwa łóżka pojedyncze, łazienkę i system
+                            wejścia na kartę. Pokój można wynająć indywidualnie lub dla dwóch osób.</p>
+                        <a href="#" class="rooms__link">Więcej</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="opinion ptb">
+            <h2 class="opinion__title">Opinie</h2>
+            <div class="opinion__container">
+                <div class="opinion__card">
+                    <div class="opinion__person">
+                        <img class="opinion__photo opinion__photo--one" src=""
+                            alt="Zdjęcie osoby, która wystawiła opinię"></img>
+                        <div class="shadow shadow--circle"></div>
+                        <div class="opinion__circle"></div>
+                    </div>
+                    <p class="opinion__text">Miałem fantastyczne doświadczenie w tym apartamencie. Byłem pod wrażeniem
+                        recepcjonistów i personelu sprzątającego. Gabriela była szczególnie pomocna podczas
+                        wymeldowywania się po pracowitym tygodniu.</p>
+                    <p class="opinion__name opinion__name--one"></p>
+                </div>
+                <div class="opinion__card">
+                    <div class="opinion__person">
+                        <img class="opinion__photo opinion__photo--two" src=""
+                            alt="Zdjęcie osoby, która wystawiła opinię"></img>
+                        <div class="shadow shadow--circle"></div>
+                        <div class="opinion__circle"></div>
+                    </div>
+                    <p class="opinion__text">Personel był wspaniały! Spędziliśmy bardzo miło czas w mieście. Nie mogę
+                        powiedzieć wystarczająco dużo miłych rzeczy o personelu. Wszyscy byli bardzo mili i pomocni. Z
+                        niecierpliwością czekamy na powrót tutaj.</p>
+                    <p class="opinion__name opinion__name--two"></p>
+                </div>
+                <div class="opinion__card">
+                    <div class="opinion__person">
+                        <img class="opinion__photo opinion__photo--three" src=""
+                            alt="Zdjęcie osoby, która wystawiła opinię"></img>
+                        <div class="shadow shadow--circle"></div>
+                        <div class="opinion__circle"></div>
+                    </div>
+                    <p class="opinion__text">Chcę tylko podziękować i powiedzieć, jak bardzo mojej grupie młodych ludzi
+                        podobał się apartament w tym tygodniu. Personel był bardzo pomocny i przyjazny. Dziękuję za
+                        wszelką pomoc i wsparcie podczas naszego pobytu.</p>
+                    <p class="opinion__name opinion__name--three"></p>
+                </div>
+            </div>
+        </section>
+        <section class="numbers ptb">
+            <h2 class="numbers__title">W Ciągu 5 lat</h2>
+            <div class="numbers__container">
+                <div class="numbers__card">
+                    <p class="numbers__num" data-num="18">00</p>
+                    <p class="numbers__text">Nagród</p>
+                </div>
+                <div class="numbers__card">
+                    <p class="numbers__num" data-num="458">000</p>
+                    <p class="numbers__text">Gości</p>
+                </div>
+                <div class="numbers__card">
+                    <p class="numbers__num" data-num="892">000</p>
+                    <p class="numbers__text">Wydanych Posiłków</p>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter ptb">
+            <div class="newsletter__container">
+                <h2 class="newsletter__title">Zapisz się aby otrzymać 15% rabatu</h2>
+                <p class="newsletter__text">
+                    Chcesz otrzymać natychmiastową zniżkę na pobyt w naszym apartamencie? Zostaw swój adres e-mail i zapisz się do naszego newslettera z 15% zniżką na wszystkie nasze pokoje.
+                </p>
+                <div class="newsletter__bottom">
+                    <input class="newsletter__input" type="text" placeholder="Wpisz swój e-mail">
+                    <button class="newsletter__btn">Subskrybuj</button>
+                </div>
+            </div>
+            <div class="shadow"></div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+    <div class="footer__container ptb">
+        <div class="footer__card">
+            <h2 class="footer__title">Kontakt</h2>
+            <p class="footer__text">+48 91 575 20 23</p>
+            <p class="footer__text">info@royalrespite.pl</p>
+            <p class="footer__text">ul. Sporna 59<br>Łódź<br>91-702</p>
+        </div>
+        <div class="footer__card">
+            <h2 class="footer__title">Popularne Nowości</h2>
+            <p class="footer__text">Apartament czy hotel? Co jest lepszym wyborem</p>
+            <p class="footer__text-date">5 stycznia, 2024</p>
+            <p class="footer__text">Jak rozporządzić budżet podczas wycieczki</p>
+            <p class="footer__text-date">14 czerwca, 2024</p>
+        </div>
+        <div class="footer__card">
+            <h2 class="footer__title">Przydatne Linki</h2>
+            <a href="#" class="footer__text">O nas</a>
+            <a href="#" class="footer__text">Nasz zespół</a>
+            <a href="#" class="footer__text">Nasze pokoje</a>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <p class="footer__bottom-text">&copy; <span class="footer__date"></span> Royal Respite</p>
+    </div>
+</footer>
+
+    <script src="../dist/js/script.min.js"></script>
+</body>
+
+</html>
